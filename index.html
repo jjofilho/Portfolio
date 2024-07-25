@@ -8,7 +8,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link">Home</a>
+            <a class="cabecalho__menu__link">Sobre Mim</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Utilize a Inteligência Artificial para <strong class="titulo-destaque">prospecção e crescimento
@@ -17,12 +22,17 @@
             <p class="apresentacao__conteudo__texto">Olá! Sou João Oliveira, desenvolvedor Back-end em Java e Python. Ajudo seu time a aplicar o aprendizado de máquina para escalar seus objetivos. Vamos conversar?
             </p>
             <div class="apresentacao__links">
-                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/joaooliveiradigital/">LinkedIn</a>
-                <a class="apresentacao__links__link" href="https://github.com/jjofilho">GitHub</a>
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/joaooliveiradigital/">
+                    <img src="./assets/linkedin.png" alt="ícone do LinkedIn">LinkedIn</a>
+                <a class="apresentacao__links__link" href="https://github.com/jjofilho">
+                    <img src="./assets/github.png" alt="ícone do Github">GitHub</a>
             </div>
         </section>
-        <img class="apresentacao_foto" src="Imagem.png" alt="Foto de João Oliveira em escuta ativa.">
+        <img class="apresentacao_foto" src="./assets/Imagem.png" alt="Foto de João Oliveira em escuta ativa.">
     </main>
-    <footer></footer>    
+    <footer class="rodape">
+        <p>Desenvolvido por João Oliveira | Programa ONE (2024) | Projeto ALURA</p>
+    </footer>    
 </body>
 </html>
