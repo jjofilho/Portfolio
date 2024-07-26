@@ -21,7 +21,7 @@
 ## Descrição do projeto 
 
 <p align="justify">
- Projeto em desenvolvimento na Formação Iniciante em Programação T7 - ONE, na disciplina HTML e  CSS, com os instrutores Guilherme Lima e Rafaella Ballerini.
+Projeto em desenvolvimento na Formação Iniciante em Programação T7 - ONE, na disciplina HTML e  CSS, com os instrutores Guilherme Lima e Rafaella Ballerini.
 
 O site em construção oferece uma apresentação de portfolio individual para seu próprio pitch de vendas com responsividade em diversas plataformas e dispositivos.
 
@@ -40,8 +40,7 @@ O site em construção oferece uma apresentação de portfolio individual para s
 
 ## Ferramentas utilizadas
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank"> <img src="./assets/html-5.png" alt="HTML" width="40" height="40"/></a>
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank"> <img src="./assets/css-3.png" alt="CCS" width="40" height="40"/></a>
+[![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
 
 ###
 
