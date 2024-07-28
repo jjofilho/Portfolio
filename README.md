@@ -25,7 +25,7 @@ Projeto em desenvolvimento na Formação Iniciante em Programação T7 - ONE, na
 
 O site em construção oferece uma apresentação de portfolio individual para seu próprio pitch de vendas com responsividade em diversas plataformas e dispositivos.
 
-![Visual aproximado da primeira versão do Portfolio de João Oliveira.](./assets/PortifolioV1.png)
+![Visual aproximado da primeira versão do Portfolio de João Oliveira.](./assets/VersaoDesenvolvidaPortifolio.png)
 </p>
 
 ## Funcionalidades
