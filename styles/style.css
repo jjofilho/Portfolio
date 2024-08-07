@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
+ /*
     --cor-primaria: #000000;
     --cor-secundária: #F6F6F6;
     --cor-terciaria: #2BFDBE;
@@ -8,6 +9,16 @@
 
     --fonte-primaria: "Krona One", sans-serif;
     --fonte-secundaria: "Montserrat", sans-serif;
+*/
+
+    --cor-primaria: #0B2545;
+    --cor-secundária: #EEF4ED;
+    --cor-terciaria: #8DA9C4;
+    --cor-hover: #134074;
+
+    --fonte-primaria: "Krona One", sans-serif;
+    --fonte-secundaria: "Montserrat", sans-serif;
+
 }
 
 * {
@@ -51,14 +62,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 80px;
 }
 
 .apresentacao__conteudo {
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
-    width: 38rem;
+    width: 50%; 
     justify-content: space-between;
+
 }
 
 .apresentacao__conteudo__titulo {
@@ -87,12 +100,12 @@ body {
     font-size: 1.2rem;   
 }
 
-.apresentacao__links__link {
+.apresentacao__links__navegacao {
     display: flex;
     justify-content: center;
     gap: 1rem;
     border: 0.12rem solid var(--cor-terciaria);
-    width: 18rem;
+    width: 50%; /*16rem*/
     text-align: center;
     border-radius: 0.5rem;
     font-size: 1.5rem;
@@ -103,10 +116,14 @@ body {
     color: var(--cor-secundária);
 }
 
-.apresentacao__links__link:hover {
+.apresentacao__links__navegacao:hover {
     background-color: var(--cor-hover);
     font-size: 1.6rem;
     font-weight: 600;
+}
+
+.apresentacao__imagem {
+    width: 42%;
 }
 
 .rodape {
@@ -116,4 +133,28 @@ body {
     font-family:var(--fonte-secundaria);
     font-weight: 400;
     padding: 0.6rem;
+}
+
+@media (max-width: 1000px) {
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+        gap: 10%;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        width: auto; 
+    }
+
+    .apresentacao__links__navegacao {
+        width: 16rem; /*50%*/
+    }
 }

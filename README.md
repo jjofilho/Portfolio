@@ -3,7 +3,7 @@
 <hr>
 <p></p>
 <p align="center">
-   <img src="https://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge" #vitrinedev/>
+   <img src="https://img.shields.io/static/v1?label=STATUS&message=%20CONLUÍDO&color=RED&style=for-the-badge" #vitrinedev/>
 </p>
 
 ### Tópicos 
@@ -25,7 +25,7 @@ Projeto em desenvolvimento na Formação Iniciante em Programação T7 - ONE, na
 
 O site em construção oferece uma apresentação de portfolio individual para seu próprio pitch de vendas com responsividade em diversas plataformas e dispositivos.
 
-![Visual aproximado da primeira versão do Portfolio de João Oliveira.](./assets/VersaoDesenvolvidaPortifolio.png)
+![Visual aproximado da primeira versão do Portfolio de João Oliveira.](./assets/PortifolioV4.png)
 </p>
 
 ## Funcionalidades
@@ -50,4 +50,6 @@ Você pode [acessar o código fonte do projeto](https://github.com/jjofilho/Port
 
 ## Colaboradores
 
-[<img src="https://avatars.githubusercontent.com/u/170963236?u=a8c7f81bbb6eba3f775a6f5f65098aace7bbef9d&v=4&size=64" width=115> <br><sub>João Oliveira</sub><br>](https://github.com/jjofilho)
+| [<img src="https://avatars.githubusercontent.com/u/170963236?s=96&v=4" width=115> <br><sub>João Oliveira</sub>](https://github.com/jjofilho) | [<img src="https://avatars.githubusercontent.com/u/54322854?v=4" width=115><br><sub>Rafaella Ballerini</sub>](https://github.com/rafaballerini) | [<img src="https://avatars.githubusercontent.com/u/30351153?v=4" width=115><br><sub>Guilherme Lima</sub>](https://github.com/guilhermeonrails) |  [<img src="https://avatars.githubusercontent.com/u/4975968?s=200&v=4" width=115><br><sub>Alura Cursos Online</sub>](https://github.com/alura-cursos) |
+| :---: | :---: | :---: | :---: |
+
